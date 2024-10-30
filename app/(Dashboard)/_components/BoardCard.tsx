@@ -50,7 +50,7 @@ export default function BoardCard({
   }
 
   const handleCardClick = () => {
-    router.push(`/board/${id}`)
+    router.push(`/Board/${id}`)
   }
 
   const relativeTime = formatDistanceToNow(new Date(createdAt), { addSuffix: true })

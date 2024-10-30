@@ -28,7 +28,7 @@ export default defineSchema({
     .index("by_user",["userId"])
     .index("by_board",["boardId","userId"])
     .index("by_org",["orgId"])
-    .index("by_board_user",["boardId","userId","orgId"])
+    .index("by_board_user",["orgId","userId","boardId"])
 })
 
 
